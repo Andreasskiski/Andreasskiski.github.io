@@ -8,6 +8,32 @@ div{
     padding: -5px;
 }
 
+.menyknapp {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+
+.menyknapp li{
+    display: inline;
+}
+
+.menyknapp a{
+    text-decoration: none;
+    color:white;
+   /*      top, right, bottom, left*/
+    padding: 30px 20px 30px 20px;
+}
+
+.menyknapp a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color:white;
+    font-weight: bold;
+    
+}
+
 .topp{
     height: 75px;
     font-size: 40px;
