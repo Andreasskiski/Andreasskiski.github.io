@@ -1,0 +1,82 @@
+/* div{
+    border: black 1px solid;
+    margin: 5px;
+} 
+ */
+.main{
+    border: black 1px solid;
+    margin: 5px;
+    padding: -5px;
+}
+
+.topp{
+    height: 50px;
+    font-size: 40px;
+    border: black 1px solid;
+    margin: 5px;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav li{
+    display: inline;
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+    
+    
+   /*      top, right, bottom, left*/
+    padding: 30px 20px 30px 20px;
+
+    
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color:white;
+    font-weight: bold;
+    
+}
+
+.innhold{
+    display: flex;
+    font-size: 20px;
+    
+    
+}
+
+.artikkel{
+    border: black 1px solid;
+    margin: 5px;
+}
+
+@media (max-width: 800px) {
+    .innhold {
+      flex-direction: column;
+    }
+  }
+
+
+
+.artikkelbilde{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    border: black 1px solid;
+    margin: 5px;
+}
